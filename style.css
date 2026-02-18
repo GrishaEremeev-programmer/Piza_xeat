@@ -1,0 +1,81 @@
+
+.heder{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+body{
+    font-family: "Arial", sans-serif;
+    margin-left: 22px;
+}
+.logo {
+  width: 40px;
+  height: auto; 
+}
+.head{
+    margin: 0;
+}
+.btc{
+    color:rgb(0, 0, 0);
+    background:rgb(255, 255, 255);
+    border: 1px solid #000000;
+    width: 60px;
+    height: 27px;
+    margin:10px;
+    font-size:8px;
+
+}
+.btc.dop{
+    background: rgb(0, 0, 0);
+    color:rgb(255, 255, 255)
+}
+.BTC{
+    color:rgb(0, 0, 0);
+    background:rgb(255, 255, 255);
+    padding: 2px;
+    border: 1px solid #000000;
+    width: 85px;
+    margin:10px ;
+    height: 25px;
+    font-size:9px;
+
+}
+.BTC.DoP{
+    color: rgb(255, 255, 255);
+    background: rgb(0, 0, 0);
+
+
+}
+.foods{
+    background: rgb(231, 215, 151);
+    border: 1px;
+}
+.food{
+height: 0px;
+margin: 0px;
+overflow: hidden;
+display: flex;
+font-size:11px;
+
+}
+.food.DOP{
+    transition: 1s;
+    cursor: pointer;
+    border: 1px solid #000000;
+    background:rgb(231, 215, 151); 
+    height: auto;
+    margin: auto;
+    padding: 7px;
+}
+.food.DOp{
+    background: black;
+    color:rgb(255, 255, 255);
+}
+p{
+    font-size: 9px;
+    margin: 20px;
+    background-color: rgb(239, 239, 239);
+    padding: 20px;
+}
+
